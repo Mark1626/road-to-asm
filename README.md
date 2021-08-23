@@ -10,6 +10,7 @@ The assembler I will be using is **GAS**
 
 - **Exp-1:** Hello World
   + This contains both NASM and GAS
+- **Exp-2:** Looping
 
 ## Resources
 
