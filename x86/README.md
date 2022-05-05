@@ -13,6 +13,7 @@ The assembler I will be using is **GAS**
 - **Exp-2:** Looping
 - **Exp-3:** Return value of the program can be set by **eax**
 - **Exp-4:** Printing Floats
+- **Exp-5:** Read array of floats as vector and print the contents of xmm
 
 ## Resources
 
