@@ -9,4 +9,7 @@ output/hello-5: exp-2/hello-5.s
 	gcc $^ -o $@
 
 output/xchg: exp-2/xchg.s
-	gcc $^ -o $@
+	gcc $^ -o $
+
+output/ret: exp-3/exp-3.s
+	gcc $^ -o $

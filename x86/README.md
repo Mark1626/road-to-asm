@@ -11,6 +11,8 @@ The assembler I will be using is **GAS**
 - **Exp-1:** Hello World
   + This contains both NASM and GAS
 - **Exp-2:** Looping
+- **Exp-3:** Return value of the program can be set by **eax**
+- **Exp-4:** Printing Floats
 
 ## Resources
 

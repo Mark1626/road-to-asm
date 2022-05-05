@@ -1,8 +1,9 @@
-.global _main
+.globl _main
 
 .data
-hello:
-  .asciz "Hello World\n"
+format: .asciz "Float %.1f\n"
+
+n: .double 3.1415
 
 .text
 _main:
@@ -10,8 +11,9 @@ _main:
   pushq %rbp
   movq %rsp, %rbp
 
-  leaq hello(%rip), %rdi
-  xor %eax, %eax
+  movsd n(%rip), %xmm0
+  leaq format(%rip), %rdi
+  movl $1, %eax
   call _printf
 
   # Set return 0
@@ -20,3 +22,4 @@ _main:
   movq %rbp, %rsp
   popq %rbp
   retq
+
